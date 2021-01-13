@@ -4,7 +4,7 @@ Response prediction system for Stack Exchange communities. Predict if a post wil
 Built on AWS.
 
 ## Data
-Data used comes from [Stack Exchange Data Dump](https://archive.org/details/stackexchange). Stack Exchange data is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/legalcode).
+Data used comes from [Stack Exchange Data Dump](https://archive.org/details/stackexchange). Stack Exchange data is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Web application
 End user interface is provided at http://ratemypost-app.s3-website-us-east-1.amazonaws.com/.
