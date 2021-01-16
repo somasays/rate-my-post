@@ -30,6 +30,7 @@ var baseUrl = `https://${apiId}.execute-api.${region}.amazonaws.com/${stageName}
 $(document).ready(function () {
     $("#submitPost").click(function (event) {
         event.preventDefault();
+        $("#postResponse").html('<div class="text-center"><i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i></div>');
         var form = $("#userForm")[0];
         if (form.checkValidity() === false) {
             event.stopPropagation();
